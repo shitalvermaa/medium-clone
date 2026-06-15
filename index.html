@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Clone</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        
+        <div class="nav-left">
+       
+        <div class="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+        </div>
+
+        
+        <div class="logo">
+           Medium
+        </div>
+
+        <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search">
+    </div>
+    </div>
+        
+    <div class="nav-right">
+           
+            <button>
+                <i class="fa-solid fa-qrcode"></i>
+                Get App
+            </button>
+            
+            <div class="write">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <Span>Write</Span>
+        </div>
+           
+        <i class="fa-solid fa-bell"></i>
+        <div class="profile">
+         S
+        </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+    <aside class="left-sidebar">
+      
+        <div class="menu-item">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+     </div>
+
+     <div class="menu-item">
+      <i class="fa-regular fa-bookmark"></i>
+       <span>Library</span>
+     </div>
+
+     <div class="menu-item">
+        <i class="fa-regular fa-user"></i>
+        <span>Profile</span>
+     </div>
+
+     <div class="menu-item">
+         <i class="fa-regular fa-file-lines"></i>
+        <span>Stories</span>
+     </div>
+
+     <div class="menu-item">
+       <i class="fa-solid fa-chart-bar"></i>
+        <span>Stats</span>
+     </div>
+
+     <div class="divider"></div>
+
+     <div class="menu-item">
+      <i class="fa-solid fa-user-group"></i>
+      <span>Following</span>
+     </div>
+
+     <div class="menu-item input-like">
+      <i class="fa-solid fa-plus"></i>
+      <span>Find writers and publications to follow.</span>
+     </div>
+
+     <div class="menu-item">
+     <span>See suggestions</span>
+     </div>
+    </aside>
+
+    <main class="content">
+      <div class="top-menu">
+        <span class="selected">For you</span>
+        <span>Featured</span>
+      </div>
+
+      <div class="article-feed">
+        
+        <article class="post-card">
+            <div class="post-left">
+                <div class="author-info">
+                    <img src="./image1.jpg" alt="Author" class="author-img">
+                    <span class="publication">In Code Like A Girl</span>
+                    <span class="by">by</span>
+                    <span class="author-name">Shruti Mangawa✨</span>
+                    <i class="fa-solid fa-circle-check verified-icon"></i>
+                    <span class="dot">•</span>
+                    <span class="date">Mar 9</span>
+                </div>
+                <h2 class="post-title">Why Reading More Books Wasn't Making Me Smarter</h2>
+                <p class="post-subtitle">I Realized I Had Been Reading Wrong My Entire Life</p>
+                <div class="post-footer">
+                    <div class="footer-left">
+                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                        <span class="stat"><i class="fa-solid fa-hands-clapping"></i> 3.6K</span>
+                        <span class="stat"><i class="fa-regular fa-comment"></i> 145</span>
+                        <span class="stat"><i class="fa-solid fa-arrow-rotate-left"></i> 74</span>
+                    </div>
+                    <div class="footer-right">
+                        <i class="fa-regular fa-thumbs-down-up"><i class="fa-regular fa-thumbs-down"></i></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-right">
+                <img src="./image1.1.jpg" alt="Cover Image" class="cover-img">
+            </div>
+        </article>
+
+        <article class="post-card">
+            <div class="post-left">
+                <div class="author-info">
+                    <img src="./image2.webp" alt="Author" class="author-img">
+                    <span class="author-name">Michal Malewicz✨</span>
+                    <i class="fa-solid fa-circle-check verified-icon"></i>
+                    <span class="dot">•</span>
+                    <span class="date">July 10</span>
+                </div>
+                <h2 class="post-title">UI Design Direction 2026-2027</h2>
+                <p class="post-subtitle">UI is already exploring exciting new directions, but doesn't need new"morphisms.</p>
+                <div class="post-footer">
+                    <div class="footer-left">
+                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                        <span class="stat"><i class="fa-solid fa-hands-clapping"></i> 1.7K</span>
+                        <span class="stat"><i class="fa-regular fa-comment"></i> 78</span>
+                        <span class="stat"><i class="fa-solid fa-arrow-rotate-left"></i> 44</span>
+                    </div>
+                    <div class="footer-right">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-right">
+                <img src="./image2.2.avif" alt="Cover Image" class="cover-img">
+            </div>
+        </article>
+
+        <article class="post-card">
+            <div class="post-left">
+                <div class="author-info">
+                    <img src="./image3.jpg" alt="Author" class="author-img">
+                    <span class="author-name">Leo Godin✨</span>
+                    <i class="fa-solid fa-circle-check verified-icon"></i>
+                    <span class="dot">•</span>
+                    <span class="date">Apr 10</span>
+                </div>
+                <h2 class="post-title">Claude Code is Great</h2>
+                <p class="post-subtitle">You just need to learn how to use it.</p>
+                <div class="post-footer">
+                    <div class="footer-left">
+                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                        <span class="stat"><i class="fa-solid fa-hands-clapping"></i> 3.7K</span>
+                        <span class="stat"><i class="fa-regular fa-comment"></i> 53</span>
+                        <span class="stat"><i class="fa-solid fa-arrow-rotate-left"></i> 43</span>
+                    </div>
+                    <div class="footer-right">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-right">
+                <img src="./image3.3.jpeg" alt="Cover Image" class="cover-img">
+            </div>
+        </article>
+
+        <article class="post-card">
+            <div class="post-left">
+                <div class="author-info">
+                    <img src="./image4.jpg" alt="Author" class="author-img">
+                    <span class="author-name">Gray Miller✨</span>
+                    <i class="fa-solid fa-circle-check verified-icon"></i>
+                    <span class="dot">•</span>
+                    <span class="date">June 6</span>
+                </div>
+                <h2 class="post-title">Too Many Ideas Keeping You Awake at Night? Build an Idearium.</h2>
+                <p class="post-subtitle">Creating a place for ideas to live until you're ready for them.</p>
+                <div class="post-footer">
+                    <div class="footer-left">
+                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                        <span class="stat"><i class="fa-solid fa-hands-clapping"></i> 2.4K</span>
+                        <span class="stat"><i class="fa-regular fa-comment"></i> 66</span>
+                        <span class="stat"><i class="fa-solid fa-arrow-rotate-left"></i> 6</span>
+                    </div>
+                    <div class="footer-right">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-right">
+                <img src="./image4.4.avif" alt="Cover Image" class="cover-img">
+            </div>
+        </article>
+
+        <article class="post-card">
+            <div class="post-left">
+                <div class="author-info">
+                    <img src="./image5.jpg" alt="Author" class="author-img">
+                    <span class="author-name">Stephanie Shen✨</span>
+                    <i class="fa-solid fa-circle-check verified-icon"></i>
+                    <span class="dot">•</span>
+                    <span class="date">Apr 2</span>
+                </div>
+                <h2 class="post-title">The Illusion Of Understanding</h2>
+                <p class="post-subtitle">Wittegenstein, Neuroscience, and Why Language is not Thought in Humans or AI.</p>
+                <div class="post-footer">
+                    <div class="footer-left">
+                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                        <span class="stat"><i class="fa-solid fa-hands-clapping"></i> 2.3K</span>
+                        <span class="stat"><i class="fa-regular fa-comment"></i> 93</span>
+                        <span class="stat"><i class="fa-solid fa-arrow-rotate-left"></i> 26</span>
+                    </div>
+                    <div class="footer-right">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-right">
+                <img src="./image5.5.webp" alt="Cover Image" class="cover-img">
+            </div>
+        </article>
+
+         <article class="post-card">
+            <div class="post-left">
+                <div class="author-info">
+                    <img src="./image6.jpg" alt="Author" class="author-img">
+                    <span class="author-name">Alina Kovtun✨</span>
+                    <i class="fa-solid fa-circle-check verified-icon"></i>
+                    <span class="dot">•</span>
+                    <span class="date">Mar 26</span>
+                </div>
+                <h2 class="post-title">Concurrency , Parallelism,and Async: Three Ideas That Sounds The Same But Aren't</h2>
+                <p class="post-subtitle">Aguide to how modern software handles multiple tasks- with diagrams,code,and zero hand-waving</p>
+                <div class="post-footer">
+                    <div class="footer-left">
+                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                        <span class="stat"><i class="fa-solid fa-hands-clapping"></i> 1.3K</span>
+                        <span class="stat"><i class="fa-regular fa-comment"></i> 14</span>
+                        <span class="stat"><i class="fa-solid fa-arrow-rotate-left"></i> 7</span>
+                    </div>
+                    <div class="footer-right">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-right">
+                <img src="./image6.6.png" alt="Cover Image" class="cover-img">
+            </div>
+        </article>
+
+         <article class="post-card">
+            <div class="post-left">
+                <div class="author-info">
+                    <img src="./image7.jpg" alt="Author" class="author-img">
+                    <span class="author-name">Katie Jagielnicka✨</span>
+                    <i class="fa-solid fa-circle-check verified-icon"></i>
+                    <span class="dot">•</span>
+                    <span class="date">Mar 13</span>
+                </div>
+                <h2 class="post-title">Gen Z Men Will Never Be Breadwinners</h2>
+                <p class="post-subtitle">So why do so many still want 'Traditional' wives</p>
+                <div class="post-footer">
+                    <div class="footer-left">
+                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                        <span class="stat"><i class="fa-solid fa-hands-clapping"></i> 2.1K</span>
+                        <span class="stat"><i class="fa-regular fa-comment"></i> 63</span>
+                        <span class="stat"><i class="fa-solid fa-arrow-rotate-left"></i> 16</span>
+                    </div>
+                    <div class="footer-right">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-right">
+                <img src="./IMG1.1.webp" alt="Cover Image" class="cover-img">
+            </div>
+        </article>
+
+         <article class="post-card">
+            <div class="post-left">
+                <div class="author-info">
+                    <img src="./image8.jpg" alt="Author" class="author-img">
+                    <span class="author-name">Jing Hu✨</span>
+                    <i class="fa-solid fa-circle-check verified-icon"></i>
+                    <span class="dot">•</span>
+                    <span class="date">Feb 25</span>
+                </div>
+                <h2 class="post-title">A Lawyer Just Beat 500 Developers at Anthropic's Hackathon</h2>
+                <p class="post-subtitle">The most valuable skill in AI right now isn't code - and you probably already have it.</p>
+                <div class="post-footer">
+                    <div class="footer-left">
+                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                        <span class="stat"><i class="fa-solid fa-hands-clapping"></i> 5.3K</span>
+                        <span class="stat"><i class="fa-regular fa-comment"></i> 86</span>
+                        <span class="stat"><i class="fa-solid fa-arrow-rotate-left"></i> 11</span>
+                    </div>
+                    <div class="footer-right">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-right">
+                <img src="./image8.8.webp" alt="Cover Image" class="cover-img">
+            </div>
+        </article>
+
+         <article class="post-card">
+            <div class="post-left">
+                <div class="author-info">
+                    <img src="./image9.webp" alt="Author" class="author-img">
+                    <span class="author-name">William Sidnam✨</span>
+                    <i class="fa-solid fa-circle-check verified-icon"></i>
+                    <span class="dot">•</span>
+                    <span class="date">May 11</span>
+                </div>
+                <h2 class="post-title">The Most Annoying Rule Of English Grammar That We Put Up With</h2>
+                <p class="post-subtitle">English teachers have a lot to answer for</p>
+                <div class="post-footer">
+                    <div class="footer-left">
+                        <span class="star-icon"><i class="fa-solid fa-star"></i></span>
+                        <span class="stat"><i class="fa-solid fa-hands-clapping"></i> 4.6K</span>
+                        <span class="stat"><i class="fa-regular fa-comment"></i> 150</span>
+                        <span class="stat"><i class="fa-solid fa-arrow-rotate-left"></i> 9</span>
+                    </div>
+                    <div class="footer-right">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-right">
+                <img src="./image9.9.jpg" alt="Cover Image" class="cover-img">
+            </div>
+        </article>
+
+    </div>
+
+    </main>
+
+    <aside class="right-sidebar">
+      
+     <div class="sidebar-section">
+        <h4 class="section-title">Staff Picks</h4>
+        
+        <div class="pick-item">
+            <div class="pick-author">
+                <img src="./IMG1.png" alt="Author">
+                <span>In Prism &... by Joe Guay</span>
+            </div>
+            <h5 class="pick-heading">Our LGBT Literary Heroes Had a Pride That Took Boldness and Guts</h5>
+        </div>
+
+        <div class="pick-item">
+            <div class="pick-author">
+                <img src="./IMG6.jpg" alt="Author">
+                <span>In UX Collective by Wira Indra Kusuma</span>
+            </div>
+            <h5 class="pick-heading">We used to log off</h5>
+        </div>
+
+        <div class="pick-item">
+            <div class="pick-author">
+                <img src="./IMG4.jpg" alt="Author">
+                <span>KYO - Japanese writer, Tokyo</span>
+            </div>
+            <h5 class="pick-heading">The Carp Flies for Boys. The Doll Sits for Girls.</h5>
+        </div>
+        
+        <a href="#" class="see-more-link">See the full list</a>
+    </div>
+
+    <div class="sidebar-section">
+        <h4 class="section-title">Recommended topics</h4>
+        <div class="topic-tags">
+            <span class="tag-btn">+ Programming</span>
+            <span class="tag-btn">+ Self Improvement</span>
+            <span class="tag-btn">+ Data Science</span>
+            <span class="tag-btn">+ Writing</span>
+            <span class="tag-btn">+ Technology</span>
+            <span class="tag-btn">+ Relationships</span>
+            <span class="tag-btn">+ Politics</span>
+        </div>
+        <a href="#" class="see-more-link">See more topics</a>
+    </div>
+
+    <div class="sidebar-section">
+        <h4 class="section-title">Who to follow</h4>
+        
+        <div class="follow-row">
+            <img src="./IMG5.jpg" alt="User" class="follow-img">
+            <div class="follow-info">
+                <h5>R.K.F.</h5>
+                <p>Seven monkeys with a typewriter. Expect:...</p>
+            </div>
+            <button class="follow-btn">Follow</button>
+        </div>
+
+        <div class="follow-row">
+            <img src="./IMG6.jpg" alt="User" class="follow-img">
+            <div class="follow-info">
+                <h5>UX Collective</h5>
+                <p>Publication • We believe designers are thinkers as much as they...</p>
+            </div>
+            <button class="follow-btn">Follow</button>
+        </div>
+
+        <div class="follow-row">
+            <img src="./IMG8.jpg" alt="User" class="follow-img">
+            <div class="follow-info">
+                <h5>Raphael Moutard</h5>
+                <p>VP engineering - Former @Amazon — Passionate...</p>
+            </div>
+            <button class="follow-btn">Follow</button>
+        </div>
+
+        <a href="#" class="see-more-link">See more suggestions</a>
+    </div>
+
+    <div class="sidebar-section">
+        <h4 class="section-title">Reading list</h4>
+        <p class="list-text">Click the <i class="fa-regular fa-bookmark"></i> on any story to easily add it to your reading list or a custom list that you can share.</p>
+    </div>
+
+    <footer class="sidebar-footer">
+        <a href="#">Help</a>
+        <a href="#">Status</a>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+        <a href="#">Blog</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Text to speech</a>
+    </footer>
+
+    </aside>
+
+</div>
+<script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const leftSidebar = document.querySelector('.left-sidebar');
+
+        if (menuToggle && leftSidebar) {
+            menuToggle.addEventListener('click', function() {
+                leftSidebar.classList.toggle('hide-sidebar');
+            });
+        } else {
+            console.log("JS Error: Elements not found");
+        }
+    </script>
+</body>
+</html>
