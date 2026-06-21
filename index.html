@@ -23,7 +23,7 @@
 
         <div class="search-box">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" placeholder="Search">
+        <input type="text" id="searchInput" placeholder="Search">
     </div>
     </div>
         
@@ -104,8 +104,6 @@
             <div class="post-left">
                 <div class="author-info">
                     <img src="./image1.jpg" alt="Author" class="author-img">
-                    <span class="publication">In Code Like A Girl</span>
-                    <span class="by">by</span>
                     <span class="author-name">Shruti Mangawa✨</span>
                     <i class="fa-solid fa-circle-check verified-icon"></i>
                     <span class="dot">•</span>
@@ -475,17 +473,6 @@
     </aside>
 
 </div>
-<script>
-        const menuToggle = document.querySelector('.menu-toggle');
-        const leftSidebar = document.querySelector('.left-sidebar');
-
-        if (menuToggle && leftSidebar) {
-            menuToggle.addEventListener('click', function() {
-                leftSidebar.classList.toggle('hide-sidebar');
-            });
-        } else {
-            console.log("JS Error: Elements not found");
-        }
-    </script>
+<script src="script.js"></script>
 </body>
 </html>

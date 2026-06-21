@@ -441,7 +441,7 @@ button{
 
 .see-more-link {
     font-size: 13px;
-    color: #6b6b6b; /* Medium par links thode subtle grey hote hain */
+    color: #6b6b6b; 
     text-decoration: none;
     display: inline-block;
 }
@@ -472,4 +472,44 @@ button{
 
 .sidebar-footer a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 900px){
+
+    .container{
+        flex-direction: column;
+    }
+
+    .left-sidebar,
+    .content,
+    .right-sidebar{
+        width: 100%;
+        border: none;
+    }
+
+    .left-sidebar{
+        position: static;
+        height: auto;
+    }
+
+    .right-sidebar{
+        position: static;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    button{
+        display: none;
+    }
+
+    .write span{
+        display: none;
+    }
+
+    .search-box{
+        width: 100px;
+    }
+
 }
