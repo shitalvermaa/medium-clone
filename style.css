@@ -196,6 +196,75 @@ button{
     background:black;
 }
 
+.write-page{
+    width:750px;
+    margin:50px auto;
+    padding:40px;
+    background:lightblue;
+}
+
+
+.write-page input{
+    width:100%;
+    border:none;
+    outline:none;
+    font-size:45px;
+    font-weight:700;
+    color:#242424;
+    margin-bottom:25px;
+    font-family:Georgia, serif;
+}
+
+
+.write-page input::placeholder{
+    color:#999;
+}
+
+
+.write-page textarea{
+    width:100%;
+    min-height:450px;
+    border:none;
+    outline:none;
+    resize:none;
+    font-size:20px;
+    line-height:1.8;
+    color:#333;
+    font-family:Georgia, serif;
+}
+
+
+.write-page textarea::placeholder{
+    color:#aaa;
+}
+
+
+.write-page button{
+    margin-top:25px;
+    padding:12px 28px;
+    border:none;
+    border-radius:25px;
+    background:#1a8917;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+
+.write-page button:hover{
+    background:#146c12;
+}
+
+#publishBtn{
+    background:#1a8917;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
 .article-feed {
     display: flex;
     flex-direction: column;
